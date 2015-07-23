@@ -6,10 +6,26 @@
   </div>
   <div class="container" id="timer">
     <h1>I have been a coder</h1>
-    <p id="timer-counter"> <%= Time.local(2015,07,17,16,00,00).ago_in_words %> </p>
+     <p id="timer-counter"> Since <%= Time.local(2015,07,17,16,00,00).ago_in_words %> </p>
+  </div>
+  <div id="lettuce" class="container">
+    <p>I am fresher than a lettuce</p>
+    <p>I know, It was a really bad joke!</p>
+    <p>But, I can do some things!</p>
+    <h2>Check this out!</h2>
+  </div>
+  <div id="fizzbuzz" class="container">
+    <h2>Give me a number and I will tell you if it is a Fizz or Buzz or neither</h2>
+    <a href="https://en.wikipedia.org/wiki/Fizz_buzz">What the heck is FizzBuzz</a>
+
+    <div class="input-group">
+      <input type="text" id="FizzBuzz-number" class="form-control" placeholder="Your number" aria-describedby="basic-addon2">
+      <span class="input-group-addon" id="fizzButton">Go!</span>
+    </div>
+
   </div>
 
-
+<h2 id="fizzbuzz-result"></h2>
   
 
   

@@ -1,21 +1,35 @@
 $(document).ready(function(){
-  var timer = $('#timer-counter');
-  console.log('inside document');
+
+  //Variables
+  var fizzNumber = $('#FizzBuzz-number');
+  var fizzButton = $('#fizzButton');
+  var fizzResult = $('#fizzbuzz-result');
 
 
-  // var today = new Date;
-  // var graduation =  new Date('July 17, 2015 16:00:00');
-  // var days = Math.round(((today - graduation) / 86400000));
-  // var hours = Math.round(((today - graduation) / 3600000) / 24);
-  // var mins = Math.round(((today - graduation) / 60000) / 3600);
-  // var secs= Math.round(((today - graduation) / 1000) / 60000);
-  // var miliSecs = Math.round((today - graduation));
+  function FizzBuzzCalculator(event) {
+    console.log('inside fizzbuzz');
+    var number = fizzNumber.val();
+    if (number % 15 == 0)
+        fizzResult.text("FizzBuzz");
+    else if (number % 3 == 0)
+        fizzResult.text("Fizz");
+    else if (number % 5 == 0)
+        fizzResult.text("Buzz");
+    else
+        fizzResult.text('No Fizz, No Buzz : ( ');
 
-  // setInterval(function() {
-  //   timer.text(days + ' Days ' + hours + ' Hours ' + mins + ' Minutes ' + secs + ' Seconds ' + miliSecs + ' Milisecs')
-  // }, 500);
 
+
+
+
+
+   };
+
+
+  //Event listeners
+  fizzButton.on('click', FizzBuzzCalculator);
+
+
+ 
 }) // end document ready
-
-
 
