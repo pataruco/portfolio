@@ -15,6 +15,17 @@ main {
 }
 
 
-.navbar {
-  @grid-float-breakpoint;
+.carousel-control, .carousel-caption {
+  color: black;
 }
+
+.carousel-indicators{
+  li {
+    border: 1px solid black;
+  }
+  .active {
+    background-color: black;
+  }
+
+}
+
