@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-html, body {
+main {
   height: 100%;
 
 }
@@ -11,8 +11,10 @@ html, body {
 .container {
   height: 630px;
 
-  /* height: 600px; */
   min-height: 100%;
+}
 
 
+.navbar {
+  @grid-float-breakpoint;
 }
