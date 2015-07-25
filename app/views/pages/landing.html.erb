@@ -1,22 +1,22 @@
 <main>
-  <div class="container" id="who-am-i">
+  <div class="container landing" id="who-am-i">
     <h1>Pedro Martin</h1>
     <h2>Web developer junior</h2>
     <p>London / Caracas</p>
   </div>
-  <div class="container" id="timer">
+  <div class="container landing" id="timer">
     <h1>I have been a coder</h1>
      <p id="timer-counter"> Since <%= Time.local(2015,07,17,16,00,00).ago_in_words %> </p>
   </div>
 
-  <div id="lettuce" class="container">
-    <p>I am fresher than a lettuce</p>
-    <p>I know, It was a really bad joke!</p>
+  <div id="lettuce" class="container landing">
+    <h1>I am fresher than a lettuce</h1>
+    <p><small>(I know, It was a really bad joke)</small></p>
     <p>But, I can do some things!</p>
-    <h2>Check this out!</h2>
+    <p><strong>Check this out!</strong><span class="glyphicon glyphicon-arrow-down"></span><small>  (keep scrolling down)</small></p>
   </div>
 
-  <div class="container">
+  <div class="container landing">
     <div class="row">
       <div  id="fizzbuzz" class="col-md-6">
         <h2>Give me a number and I will tell you if it is a Fizz or Buzz or neither</h2>
@@ -39,7 +39,7 @@
     </div>
   </div>
 
-  <div class="container" id="projects">
+  <div class="container landing" id="projects">
     <div class="row">
       <div class="col-md-8">
         <h1><%= link_to('Projects', projects_path) %></h1>
