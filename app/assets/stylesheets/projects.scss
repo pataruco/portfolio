@@ -37,11 +37,11 @@ Show
   
 }
 
-.btn-info:hover {
+.btn-info:hover, 
+.btn-info:focus, 
+.btn-info:active:hover {
   color: $cream;
   background-color: $black-light;
   border-color: $black-light;
-
 }
-
 
