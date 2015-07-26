@@ -31,7 +31,6 @@ group :development, :test do
 
   gem 'byebug'
 
-  gem 'thin'
 
   # gem 'web-console', '~> 2.0'
 
