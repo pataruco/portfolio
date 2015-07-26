@@ -34,8 +34,6 @@ Background
   border-bottom: dashed 1px black;
 }
 
-
-
 /******************************************************************************
 Colours
 ******************************************************************************/
@@ -43,8 +41,8 @@ $white: rgb(255, 255, 255);
 $black: rgba(0,0,0, .85);
 $cream: rgb(255, 254, 220);
 $black-light: rgba(0,0,0, .70);
+$black-lighter: rgba(0,0,0, .65);
 $black-dark: rgba(0,0,0,.95);
-
 
 /******************************************************************************
 All Website
@@ -52,14 +50,29 @@ All Website
 html, body, main {
   height: 100%;
 }
- main{
-  color: $black;
+ main {
+  color: $black-light;
   font-family: $font-sketch;
- }
-
- main, header {
   @include background;
  }
+
+.container-fluid {
+  @include background;
+ }
+
+ a {
+  color: $black-light;
+ }
+
+ a:hover {
+  color: $black-lighter;
+ }
+
+ a:focus {
+  color: $black-lighter;
+ }
+ 
+
 /******************************************************************************
 Navigation
 ******************************************************************************/
@@ -67,28 +80,24 @@ Navigation
 .navbar {
   min-height: 0px;
   margin-bottom: 0%;
-  /* background-color: $black-dark; */
   font-family: $font-sketch;
-  /**/
   @include background;
-
-
 }
 
 .nav {
   float: right;
+  a {
+    color: $black-light;
+  } 
 }
 
-.nav-tabs {
-  border-bottom: none;
-  a {
-    color: $white;
-  }
-  a:hover{
-    color: $black;
-    background-color: $white;
-  }
+.nav > li > a:hover, .nav > li > a:focus {
+    color: $cream;
+    background-color: $black-light;
 }
+
+
+
 
 /******************************************************************************
 Landing page
@@ -97,20 +106,18 @@ Landing page
   min-height: 100%;
   height: 100%;
   color: $black-light;
-  /**/
-
 }
 
 .carousel-control, .carousel-caption {
-  color: $black;
+  color: $black-light;
 }
 
 .carousel-indicators{
   li {
-    border: 1px solid $black;
+    border: 1px solid $black-light;
   }
   .active {
-    background-color: $black;
+    background-color: $black-light;
   }
 }
 
