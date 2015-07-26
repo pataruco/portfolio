@@ -1,12 +1,16 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
 /******************************************************************************
 Colours
 ******************************************************************************/
 $white: rgb(255, 255, 255);
-$grey: rgb(85,84,87);
+$black: rgba(0,0,0, .85);
 $red: rgb(255,52,64);
+$black-light: rgba(0,0,0, .70);
+$black-dark: rgba(0,0,0,.95);
 
 
 
@@ -18,7 +22,8 @@ html, body, main {
   height: 100%;
 }
  main{
-  color: white;
+  color: $black;
+  font-family: 'sketch_blockbold';
  }
 /******************************************************************************
 Navigation
@@ -27,7 +32,7 @@ Navigation
 .navbar {
   min-height: 0px;
   margin-bottom: 0%;
-  background-color: $grey;
+  background-color: $black-dark;
 }
 
 .nav {
@@ -40,7 +45,7 @@ Navigation
     color: $white;
   }
   a:hover{
-    color: $grey;
+    color: $black;
     background-color: $white;
   }
 }
@@ -51,54 +56,49 @@ Landing page
 .landing {
   min-height: 100%;
   height: 100%;
+  color: $black-light;
+  /**/
+  background-color: rgb(255, 254, 220);
+  background-image:
+  radial-gradient(grey, rgba(0,0,0,.2) 1px, transparent 3px),
+  radial-gradient(grey, rgba(0,0,0,.15) 1px, transparent 3px),
+  radial-gradient(grey, rgba(0,0,0,.1) 1px, transparent 3px),
+  radial-gradient(rgba(0,0,0,.4), rgba(0,0,20,.1) 1px, transparent 2px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  border-bottom: dashed 1px black;
 }
 
 .carousel-control, .carousel-caption {
-  color: black;
+  color: $black;
 }
 
 .carousel-indicators{
   li {
-    border: 1px solid black;
+    border: 1px solid $black;
   }
   .active {
-    background-color: black;
+    background-color: $black;
   }
 }
 
 #who-am-i {
-  background-color:#269;
-  background-image: linear-gradient(white 2px, transparent 2px),
-  linear-gradient(90deg, white 2px, transparent 2px),
-  linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
-  linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
-  background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
-  background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px
+
+
 }
 
 #timer {
-  background-color: #fff; 
-  background-image: 
-  linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-  linear-gradient(#eee .1em, transparent .1em);
-  background-size: 100% 1.2em;
+
 }
 
 #lettuce {
-  background:  url(http://pataruco.s3.amazonaws.com/ga/portfolio/lettuce.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+
 }
 
 #code-test {
-  background-color: gray;
-  background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+  
 }
 
 #projects{
-  background-color: gray;
-  background-image: repeating-linear-gradient(135deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
 }
 
