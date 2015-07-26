@@ -20,7 +20,7 @@ $(document).ready(function(){
     else if (number % 5 == 0)
         fizzResult.text("Buzz");
     else
-        fizzResult.text('No Fizz, No Buzz : ( ');
+        fizzResult.text('No Fizz, No Buzz');
    };
 
    function romanCalculator(){
