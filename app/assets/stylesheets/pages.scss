@@ -68,6 +68,7 @@ html, body, main {
 
 .container-fluid {
   @include background;
+
  }
 
  a {
@@ -91,7 +92,6 @@ Navigation
   min-height: 0px;
   margin-bottom: 0%;
   font-family: $font-sketch;
-  @include background;
 }
 
 .nav {
@@ -107,6 +107,9 @@ Navigation
     background-color: $black-light;
 }
 
+.nav-tabs {
+    border-bottom: none;
+}
 
 
 
@@ -206,5 +209,15 @@ Landing page
 }
 
 #projects{
+    h1 {
+    font-size: 126px;
+    @include rotate(-5deg);
+  }
+
+  .carousel {
+    left: 25%;
+  }
+
 }
+
 
