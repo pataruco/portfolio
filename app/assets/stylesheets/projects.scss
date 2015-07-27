@@ -20,8 +20,8 @@ Show
   border-bottom: none;
 }
 
-
 .project-show-title {
+
   font-size: 60px;
   @include rotate(-2deg);
 }
@@ -43,5 +43,9 @@ Show
   color: $cream;
   background-color: $black-light;
   border-color: $black-light;
+}
+
+.project-show-p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 

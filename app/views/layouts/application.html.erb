@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pedro Martin | Portfolio</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => false %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -14,26 +14,26 @@
     <nav class="navbar navbar-default navigation ">
       <div class="container-fluid">
         <ul class="nav nav-tabs">
-          <li role="presentation"><%= link_to('Home', root_path) %></li>
-          <li role="presentation"><%=link_to('Projects', projects_path) %></li>
+          <li class='clock-anti' role="presentation"><%= link_to('Home', root_path) %></li>
+          <li class='clock-anti' role="presentation"><%=link_to('Projects', projects_path) %></li>
           <!-- <li role="presentation"><%= link_to('Contact', contact_path) %></li> -->
           <li role="presentation">
-            <a href="https://uk.linkedin.com/in/pataruco" target="_blank">
+            <a class='clock' href="https://uk.linkedin.com/in/pataruco" target="_blank">
               <i class="fa fa-lg fa-linkedin-square"></i>
             </a>
           </li>
           <li role="presentation">
-            <a href="https://github.com/pataruco" target="_blank">
+            <a class='clock-anti' href="https://github.com/pataruco" target="_blank">
               <i class="fa fa-lg fa-github-square"></i>
             </a>
           </li>
           <li role="presentation">
-            <a href="https://www.behance.net/pataruco" target="_blank">
+            <a class='clock' href="https://www.behance.net/pataruco" target="_blank">
               <i class="fa fa-lg fa-behance-square"></i>
             </a>
           </li>
           <li role="presentation"> 
-            <a href="mailto:pataruco@gmail.com?subject= We'd like to talk to you about the lettuce joke!" target="_blank">
+            <a class='clock-anti' href="mailto:pataruco@gmail.com?subject= We'd like to talk to you about the lettuce joke!" target="_blank">
               <i class="fa fa-lg fa-envelope-square"></i>
             </a>
           </li>

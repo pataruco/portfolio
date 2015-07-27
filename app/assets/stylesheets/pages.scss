@@ -81,8 +81,8 @@ html, body, main {
 
  a:focus {
   color: $black-lighter;
+
  }
- 
 
 /******************************************************************************
 Navigation
@@ -98,8 +98,15 @@ Navigation
   float: right;
   a {
     color: $black-light;
-    @include rotate(-5deg);
-  } 
+  }
+}
+
+.clock-anti {
+  @include rotate(-5deg)
+}
+
+.clock {
+  @include rotate(5deg)
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
