@@ -23,7 +23,7 @@ $font-sketch: 'sketch_block';
 Background
 ******************************************************************************/
 @mixin background {
-  background-color: rgb(255, 254, 220);
+  background-color: rgb(255, 254, 230);
   background-image:
   radial-gradient(grey, rgba(0,0,0,.2) 1px, transparent 3px),
   radial-gradient(grey, rgba(0,0,0,.15) 1px, transparent 3px),
@@ -39,7 +39,7 @@ Colours
 ******************************************************************************/
 $white: rgb(255, 255, 255);
 $black: rgba(0,0,0, .85);
-$cream: rgb(255, 254, 220);
+$cream: rgb(255, 254, 230);
 $black-light: rgba(0,0,0, .70);
 $black-lighter: rgba(0,0,0, .65);
 $black-dark: rgba(0,0,0,.95);
