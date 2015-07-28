@@ -1,6 +1,6 @@
 # Pedro Martin | Portfolio
 
-This is my General Assembly Web Development Immersive project portfolio to recruiters.
+This is my General Assembly Web Development Immersive project portfolio for recruiters.
 
 I have built it on:
 
