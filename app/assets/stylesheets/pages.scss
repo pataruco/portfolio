@@ -29,7 +29,7 @@ Background
   radial-gradient(grey, rgba(0,0,0,.15) 1px, transparent 3px),
   radial-gradient(grey, rgba(0,0,0,.1) 1px, transparent 3px),
   radial-gradient(rgba(0,0,0,.4), rgba(0,0,20,.1) 1px, transparent 2px);
-  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   border-bottom: dashed 1px rgba(0,0,0, .70);
 }
@@ -39,7 +39,6 @@ Colours
 ******************************************************************************/
 $white: rgb(255, 255, 255);
 $black: rgba(0,0,0, .85);
-$cream: rgb(255, 254, 230);
 $black-light: rgba(0,0,0, .70);
 $black-lighter: rgba(0,0,0, .65);
 $black-dark: rgba(0,0,0,.95);
@@ -63,11 +62,11 @@ html, body, main {
  main {
   color: $black-light;
   font-family: $font-sketch;
-  @include background;
+  // @include background;
  }
 
 .container-fluid {
-  @include background;
+  // @include background;
 
  }
 
@@ -110,7 +109,7 @@ Navigation
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
-    color: $cream;
+    color: $white;
     background-color: $black-light;
 }
 
@@ -142,8 +141,6 @@ Landing page
   }
 }
 
-
-
 #who-am-i {
 
   #arrow {
@@ -151,65 +148,64 @@ Landing page
   }
 
   h1 {
-    font-size: 136px;
+    font-size: 18vh;
     @include rotate(-5deg);
     text-align: center;
     margin-top: 30px;
   }
 
   h2 {
-    font-size: 45px;
+    font-size: 12vh;
     @include rotate(-5deg);
     text-align: center;
   }
 
   p {
-    font-size: 20px;
+    font-size: 6vh;
     @include rotate(-5deg);
     text-align: center;
   }
-      
+
 }
 
 #timer {
   h1 {
-    font-size: 126px;
+    font-size: 18vh;
   }
   p {
-    font-size: 36px;
+    font-size: 6vh;
   }
 
   #arrow {
-    font-size: 12px;
+    font-size: 6vh;
   }
 
 }
 
 #lettuce {
   .caption{
-    font-size: 12px;
+    font-size: 2vh;
   }
   h1 {
-    font-size: 126px;
+    font-size: 18vh;
     text-align: right;
   }
   p {
-    font-size: 36px;
+    font-size: 6vh;
     text-align: right;
   }
-
 }
 
 #code-test {
-    h1 {
-    font-size: 126px;
+  h1 {
+    font-size: 18vh;
   }
   h2{
-    font-size: 60px;
+    font-size: 12vh;
   }
 
   .caption{
-    font-size: 12px;
+    font-size: 2vh;
   }
 
   .form-control {
@@ -217,25 +213,10 @@ Landing page
   }
 
   .input-group-addon{
-    color: $cream;
+    color: $white;
     background-color: $black-light;
     border: 1px none $black-light;
 
   }
-  
-}
-
-#projects{
-    h1 {
-    font-size: 100px;
-  }
-
-  .carousel {
-    left: 25%;
-  }
 
 }
-
-
-
-
