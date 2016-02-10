@@ -5,14 +5,10 @@
 /******************************************************************************
 Index
 ******************************************************************************/
-
-
 .project-index-title {
-    font-size: 35px;
+    font-size: 5vh;
     @include rotate(-2deg);
 }
-
-
 /******************************************************************************
 Show
 ******************************************************************************/
@@ -21,13 +17,12 @@ Show
 }
 
 .project-show-title {
-
-  font-size: 60px;
+  font-size: 9vh;
   @include rotate(-2deg);
 }
 
 .project-show-subtitle {
-  font-size: 30px;
+  font-size: 4.5vh;
 }
 
 .btn-info {
@@ -36,7 +31,6 @@ Show
   border-color: $white;
 
 }
-
 .btn-info:hover,
 .btn-info:focus,
 .btn-info:active:hover {
@@ -44,7 +38,6 @@ Show
   background-color: $black-light;
   border-color: $black-light;
 }
-
 .project-show-p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

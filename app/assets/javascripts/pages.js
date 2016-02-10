@@ -11,7 +11,6 @@ $(document).ready(function(){
 
 
   function FizzBuzzCalculator(event) {
-    console.log('inside fizzbuzz');
     var number = fizzNumber.val();
     if (number % 15 == 0)
         fizzResult.text("FizzBuzz");
@@ -24,7 +23,6 @@ $(document).ready(function(){
    };
 
    function romanCalculator(){
-    console.log('inside romanCalculator')
     var number = romanNumber.val();
     var num = parseInt(number);
     function romanize(num) {
@@ -41,7 +39,6 @@ $(document).ready(function(){
     return Array(+digits.join("") + 1).join("M") + roman;
     };
     romanResult.text(romanize(num));
-
    };
 
 
@@ -49,7 +46,4 @@ $(document).ready(function(){
   fizzButton.on('click', FizzBuzzCalculator);
   romanButton.on('click', romanCalculator);
 
-
- 
 }) // end document ready
-
