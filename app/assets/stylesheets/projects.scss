@@ -32,15 +32,15 @@ Show
 
 .btn-info {
   color: $black-light;
-  background-color: $cream;
-  border-color: $cream;
-  
+  background-color: $white;
+  border-color: $white;
+
 }
 
-.btn-info:hover, 
-.btn-info:focus, 
+.btn-info:hover,
+.btn-info:focus,
 .btn-info:active:hover {
-  color: $cream;
+  color: $white;
   background-color: $black-light;
   border-color: $black-light;
 }
@@ -48,4 +48,3 @@ Show
 .project-show-p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
