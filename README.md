@@ -5,8 +5,8 @@ This is my General Assembly Web Development Immersive project portfolio for recr
 I have built it on:
 
 * Ruby on Rails.
-* PostgreSQL. 
-* Bootsrap.
+* PostgreSQL.
+* Bootstrap.
 
 Take a look at: [www.pataruco.info](www.pataruco.info)
 
