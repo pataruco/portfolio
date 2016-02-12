@@ -24,7 +24,7 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-default navigation ">
+    <nav class="navbar navbar-default navigation navbar-fixed-top">
       <div class="container-fluid">
         <ul class="nav nav-tabs">
           <li class='clock-anti' role="presentation"><%= link_to('Home', root_path) %></li>
@@ -45,7 +45,7 @@
               <i class="fa fa-lg fa-behance-square"></i>
             </a>
           </li>
-          <li role="presentation"> 
+          <li role="presentation">
             <a class='clock-anti' href="mailto:pataruco@gmail.com?subject= We'd like to talk to you about the cucumber joke!" target="_blank">
               <i class="fa fa-lg fa-envelope-square"></i>
             </a>
@@ -59,7 +59,7 @@
       </div>
     </nav>
   </header>
-  
+
 <%= yield %>
 
 </body>
