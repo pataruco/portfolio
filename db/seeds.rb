@@ -13,8 +13,6 @@ Project.create(name: 'Mario bros sounds', description: 'Revisited Super Mario Br
 Project.create(name: 'Back to school with tic-tac-toe', description: 'The classic tic tac toe code challenge made entirely with JavaScript and jQuery with primary school look.', technologies: 'JavaScript, jQuery.', web: 'http://bit.ly/PatarucoTicTacToe', git: 'https://github.com/pataruco/tic-tac-toe', img: 'http://pataruco.s3.amazonaws.com/ga/tic-tac-toe/tic-tac-toe-screen.png')
 Project.create(name: 'Villarock app', description: 'A weekly calendar for meals, listing recipes, ingredients and stock.', technologies: 'Ruby on Rails, PostgreSQL, Rspec, Capybara.', web: 'http://bit.ly/villarock_app', git: 'https://github.com/pataruco/villarock_app', img: 'http://pataruco.s3.amazonaws.com/ga/villarock_app/villarock-screen.png')
 Project.create(name: 'The state of the world in peace', description: 'Atlas view app to raise awareness about the actual state of violence in the World using data from UN databases.', technologies: 'Ruby on Rails, D3.js, PostgreSQL, Bootstrap.', web: 'http://bit.ly/peace_app', git: 'https://github.com/pataruco/peace', img: 'http://pataruco.s3.amazonaws.com/ga/peace/peace-screen.png')
-
-
-
- 
-
+Project.create(name: 'Good Flag | Great Flag', description: 'A node / express / mongo project inspire in a 99% Invisible talk', technologies: 'Node, Sass, Express, MongoDB, jQuery.', web: 'http://bit.ly/good-flag', git: 'https://github.com/pataruco/flag-test-node-version', img: 'http://pataruco.s3.amazonaws.com/ga/good-flag/good-flag.png')
+Project.create(name: 'Personal Portfolio', description: ' My General Assembly Web Development Immersive project portfolio for recruiters', technologies: 'Ruby on Rails, PostgreSQL', web: 'http://pataruco.info', git: 'https://github.com/pataruco/portfolio', img: 'http://pataruco.s3.amazonaws.com/ga/portfolio/pataruco-info.png')
+Project.create(name: 'Queen Pepiada', description: 'A blog to help venezuelan community in London', technologies: 'PHP, Apache, WordPress, SQL', web: 'http://www.queenpepiada.com', git: '#', img: 'http://pataruco.s3.amazonaws.com/ga/queen-pepiada/queen-pepiada.png')
