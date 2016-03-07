@@ -17,9 +17,6 @@ gem 'bootstrap-sass', '~> 3.3.5'
 gem 'time_ago_in_words', '~> 0.1.1'
 gem 'font-awesome-sass'
 
-
-
-
 group :development, :test do
   gem 'better_errors'
   gem 'binding_of_caller'
@@ -34,4 +31,3 @@ group :development, :test do
 
   gem 'spring'
 end
-
